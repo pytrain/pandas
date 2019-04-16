@@ -26,6 +26,15 @@ def test_import_matplotlib():
     plt.imshow
 
 
+def test_import_seaborn():
+    import seaborn as sns
+
+
+def test_import_xlrd():
+    import pandas
+    help(pandas.read_excel)
+
+
 def test_scrape_web():
     import pandas as pd
     pd.read_html("http://en.wikipedia.org/wiki/World_population")
